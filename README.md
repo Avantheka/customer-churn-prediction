@@ -39,7 +39,7 @@ Churn
 
 Explored customer churn patterns using visualizations.
 
-![Churn Distribution](images/churn_distribution.png)
+![Churn Distribution](Images/churn_distribution.png)
 
 ### Key Observations
 
@@ -75,7 +75,7 @@ Confusion Matrix and classification metrics were used to evaluate performance.
 
 Top features affecting churn:
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](Images/feature_importance.png)
 
 - Total Charges
 - Monthly Charges
