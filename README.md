@@ -18,9 +18,9 @@ The dataset contains **7043 customer records** with **21 features** including:
 - Contract type
 - Internet services
 
-**Target Variable**
+### Target Variable
 
-Churn
+**Churn**
 
 - 1 → Customer leaves the service
 - 0 → Customer stays
@@ -33,24 +33,30 @@ Churn
 
 - Removed unnecessary columns (`customerID`)
 - Converted categorical variables to numeric
-- Handled encoding using one-hot encoding
+- Applied one-hot encoding for categorical features
 
-## Exploratory Data Analysis (EDA)
+---
+
+### 2. Exploratory Data Analysis (EDA)
 
 Explored customer churn patterns using visualizations.
 
 ![Churn Distribution](Images/churn_distribution.png)
 
-### Key Observations
+#### Key Observations
 
 - Customers with **higher monthly charges** churn more.
 - Customers with **short tenure** have higher churn rates.
 - **Month-to-month contracts** show higher churn.
 
+---
+
 ### 3. Feature Engineering
 
 - Converted categorical variables using `pd.get_dummies()`
-- Prepared features for machine learning models.
+- Prepared feature matrix for machine learning models.
+
+---
 
 ### 4. Model Building
 
@@ -59,6 +65,8 @@ Two models were trained:
 - Logistic Regression
 - Random Forest Classifier
 
+---
+
 ### 5. Model Evaluation
 
 Accuracy Achieved:
@@ -66,7 +74,11 @@ Accuracy Achieved:
 - Logistic Regression: **~78%**
 - Random Forest: **~78%**
 
-Confusion Matrix and classification metrics were used to evaluate performance.
+#### Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+Confusion matrix and classification metrics were used to evaluate model performance.
 
 ---
 
@@ -76,9 +88,12 @@ Top features affecting churn:
 
 ![Feature Importance](Images/feature_importance.png)
 
+Key churn drivers:
+
 - Total Charges
 - Monthly Charges
 - Tenure
+- Paperless Billing
 
 These features play a major role in predicting whether a customer will churn.
 
@@ -115,15 +130,3 @@ Telecom companies can reduce churn by:
 - Jupyter Notebook
 
 ---
-
-## Project Outcome
-
-The model successfully predicts customer churn with ~78% accuracy and identifies key factors influencing churn. These insights can help businesses improve customer retention strategies.
-
----
-
-## Future Improvements
-
-- Hyperparameter tuning
-- Testing additional models (XGBoost, Gradient Boosting)
-- Building a churn prediction dashboard
