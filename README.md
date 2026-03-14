@@ -35,17 +35,18 @@ Churn
 - Converted categorical variables to numeric
 - Handled encoding using one-hot encoding
 
-### 2. Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 Explored customer churn patterns using visualizations.
 
-![churn_distribution.png](images/churn_distribution.png)
+![Churn Distribution](images/churn_distribution.png)
 
-Key observations:
+### Key Observations
 
 - Customers with **higher monthly charges** churn more.
 - Customers with **short tenure** have higher churn rates.
 - **Month-to-month contracts** show higher churn.
+
 
 ### 3. Feature Engineering
 
