@@ -76,7 +76,7 @@ Accuracy Achieved:
 
 #### Confusion Matrix
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](Images/confusion_matrix.png)
 
 Confusion matrix and classification metrics were used to evaluate model performance.
 
