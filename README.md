@@ -39,7 +39,7 @@ Churn
 
 Explored customer churn patterns using visualizations.
 
-![churn_distribution.png](images/churn_distribution.png.png)
+![churn_distribution.png](images/churn_distribution.png)
 
 Key observations:
 
