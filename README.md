@@ -47,7 +47,6 @@ Explored customer churn patterns using visualizations.
 - Customers with **short tenure** have higher churn rates.
 - **Month-to-month contracts** show higher churn.
 
-
 ### 3. Feature Engineering
 
 - Converted categorical variables using `pd.get_dummies()`
@@ -80,7 +79,6 @@ Top features affecting churn:
 - Total Charges
 - Monthly Charges
 - Tenure
-- Paperless Billing
 
 These features play a major role in predicting whether a customer will churn.
 
