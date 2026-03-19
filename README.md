@@ -99,6 +99,20 @@ These features play a major role in predicting whether a customer will churn.
 
 ---
 
+## Power BI Dashboard
+
+An interactive dashboard was created using Power BI to analyze customer churn patterns and identify key risk factors.
+
+![Dashboard](Images/Dashboard.png)
+
+### Key Insights:
+- Month-to-month contracts have the highest churn rate.
+- Fiber optic users churn more than DSL users.
+- Customers without tech support are at higher risk.
+- New customers (0–1 year) churn the most.
+
+---
+
 ## Business Insights
 
 From the analysis:
